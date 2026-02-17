@@ -1,0 +1,2 @@
+# psychic-computing-machine
+ Diretório muito espetacular pra eu fazer minhas tarefas diárias e manter portifólio. 
