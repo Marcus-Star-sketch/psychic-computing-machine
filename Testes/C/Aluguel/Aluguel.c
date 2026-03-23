@@ -19,7 +19,7 @@ int main(){
     while (opcao != 3){
 
         printf("\n--- LOCADORA FUJIWARA SHOP ---\n");
-        printf("1 - Carros Disponíveis\n");
+        printf("1 - Carros Disponíveis\n"); 
         printf("2 - Devolver Carro Alugado\n");
         printf("3 - Sair\n");
         printf("Escolha Uma Opção: ");
