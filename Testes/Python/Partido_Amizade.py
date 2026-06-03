@@ -1,10 +1,15 @@
 import time
+import pygame
 
 def escrever(texto):
     for letra in texto:
         print(letra, end="", flush=True)
         time.sleep(0.05)
     print()
+
+pygame.mixer.init()
+pygame.mixer.music.load("Taku Iwasaki - DESPERATE STRUGGLE.flac")
+pygame.mixer.music.play(-1)
 
 escolha = input("Quem o cosmos escolheu?\n")
 
@@ -73,6 +78,8 @@ while True:
 
     elif escolha1.lower() == "kenji":
         escrever("\nO profeta! Todos saúdem Kenji, o profeta!\n")
+
+    elif escolha1.lower() == "kanna":
 
     elif escolha1.lower() == "sair":
         escrever("\nO Amigo permite sua partida.\n")
